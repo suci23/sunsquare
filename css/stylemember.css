@@ -1,0 +1,220 @@
+@font-face{
+	font-family: DIN;
+	src: url(fonts/FF_DIN_Light.otf);
+}
+*{
+	margin:0;
+    padding:0;
+}
+@font-face {
+	font-family: Sawasdee;
+	src: url('Sawasdee.ttf');
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	height:3000px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+ul.nav {
+	list-style:none;
+	width:200px; 
+	font-size:25px; 
+	font-family:DIN;
+	font-weight:300;
+}
+ul.nav li {
+	position:relative; 
+	border-bottom:1px solid #333; 
+	display:block; 
+	height:50px; 
+	overflow:hidden;
+	vertical-align: middle;
+}
+ul.nav li a {
+	position:relative; 
+	color:#fff; 
+	text-decoration:none; 
+	display:block; 
+	height:50px; 
+	padding:10px 0 0 0; 
+	z-index:100; 
+	text-transform:uppercase
+}
+	
+.section{
+	float:left;
+	margin:0px;
+    bottom:0px;
+    height:768px;
+	width:100%;
+	background: url(../images/stars.png) repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+.section li{
+	color: #777;
+}
+.section ul{
+    list-style-type: none;
+}
+.bar{
+	position:fixed;
+	left:10%;
+	top:1%;
+}
+.menu{
+	position:fixed;
+	top:7%;
+	left:3%;
+}
+.menu li{
+	padding: 2px 30px;
+	height: 42px;
+}
+.judulP{
+	float: left;
+	margin-left: 20px;
+	margin-top: 5%;
+	margin-bottom: 0%;
+	font-size: 50px;
+	font-family: DIN;
+	color: #fece06;
+	text-shadow: 0px 0px 15px #fece06;
+}
+#deskripsi{
+	color: #fff;
+	text-align: left;
+	font-size: 16px;
+	margin-left: 20px;
+	font-family: DIN;
+	font-weight: lighter;
+}
+
+.judul{
+	color: #fff;
+	margin-top:5%;
+	font-size:64px;
+	font-family: DIN;
+	text-shadow: 0px 0px 10px;
+}
+
+.warna{ 
+	opacity: 0.7;
+	font-size: 25px;
+	margin-bottom: 5px;
+	font-family: DIN;
+}
+
+td{
+	vertical-align: top;
+}
+#konten{
+	margin-left:27%;
+	margin-right:27%;
+}
+#nama{
+	float:left;
+}
+#sosmed{
+	margin-top: 50px;
+	font-family: DIN;
+	font-weight: 400;
+}
+#sosmed td{
+	color:#fff;
+	padding: 10px;
+}
+#planet{
+	float:left;
+	background-color: white;
+	width: 400px;
+	height: 400px;
+	margin-left: 21%;
+	border:1;
+	border-radius: 300px;
+}
+#imageleft{
+	float:left;
+	margin-left:27%;
+	margin-right:2%;
+}
+#image3{
+	float:left;
+	margin-left:27%;
+	margin-right:27%;
+}
+#image{
+	float:left;
+	margin:5px;
+}
+#nama{
+	color: #fff;
+	margin-top:5%;
+	margin-bottom:3%;
+	font-size:27px;
+}
+#gambar{
+	height: 600px;
+	bottom: 0;
+	float: right;
+}
+h2{
+	color: #fff;
+	text-align:left;
+	font-size:16px;
+}
+h3{
+	color: #fff;
+	text-align:left;
+	font-size:16px;
+}
+table{
+	margin-left:2px;
+}
+#right{
+	width:50px;
+	float:left;
+	margin-left:2%;
+}
+p{
+	color: #fff;
+	text-align: left;
+	font-family: DIN;
+	font-weight: 100;
+	font-size: 15px;
+}
+#home{   
+	top:0; left:0; height:100%;
+	margin-top:150px;
+}
+#about{  
+    top:0; left:0; height:100%;
+}
+#done{ 
+    top:0; left:0; height:100%;
+}
+#news{ 
+	top:0; left:0; height:100%;
+}
+#gallery{  
+    top:0; left:0; height:100%;
+}
+#contact{   
+    top:0; left:0; height:100%;
+}
+#bawah{
+	width:500px;
+}
+#map{
+	width:500px;
+	height:100px;
+	clear:both;
+	background-color:#000000;
+}
+#alamat{
+	float:left;
+	text-align:right;
+}

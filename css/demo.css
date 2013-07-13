@@ -1,0 +1,33 @@
+@import url('normalize.css');
+@font-face {
+	font-family:'din';
+    src: url('DINEngschriftStd.otf');
+    src: local('☺'), 
+		url('fonts/DINEngschriftStd.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin:0;
+    padding:0;
+}
+/* General Demo Style */
+body{
+	font-family: din, serif;
+	background: #333333;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	overflow: hidden;
+	-webkit-font-smoothing: antialiased;
+}
+a{
+	color: #555;
+	text-decoration: none;
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}

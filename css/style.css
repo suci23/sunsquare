@@ -1,0 +1,104 @@
+@font-face{
+	font-family: DIN;
+	src: url(fonts/FF_DIN_Light.otf);
+}
+
+
+.st-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	font-family: 'din', 'Myriad Pro', Arial, sans-serif;
+	background: url(../img/star-tile-far-away.jpg) repeat;
+}
+
+.section{
+	margin:0px;
+    width:100%;
+    float:left;
+    text-shadow:1px 1px 1px #f0f0f0;
+} 
+
+/* Content elements */
+
+
+.panel h2 {
+	color: #FECB00;
+	text-shadow: 2px 2px 0px #FFF;
+	position: absolute;
+	font-size: 54px;
+	font-weight: 700;
+	width: 80%;
+	left: 10%;
+	text-align: center;
+	line-height: 50px;
+	margin: -70px 0 0 0;
+	padding: 0;
+	top: 40%;
+	font-family: DIN;
+	-webkit-backface-visibility: hidden;
+}
+
+.panel h1 {
+	position: absolute;
+	text-align: center;
+	font-size: 96px;
+	line-height: 22px;
+	color: #8b8b8b;
+	z-index: 2;
+	padding: 0;
+	width: 80%;
+	font-weight: 300;
+	left: 10%;
+	top: 43%;
+	margin: 10px 0 0 0;
+	-webkit-backface-visibility: hidden;
+	padding: 1px;
+}
+.panel img {
+	position: absolute;
+	text-align: center;
+	line-height: 22px;
+	z-index: 2;
+	padding: 0;
+	width: 5%;
+	left: 47.5%;
+	top: 75%;
+	margin: 10px 0 0 0;
+	-webkit-backface-visibility: hidden;
+}
+.panel img:hover {
+	position: absolute;
+	text-align: center;
+	line-height: 22px;
+	z-index: 2;
+	padding: 0;
+	width: 7%;
+	left: 47%;
+	top: 75%;
+	margin: 10px 0 0 0;
+	-webkit-backface-visibility: hidden;
+}
+
+.section.panel > .nav{
+	width: 100%;
+	text-align: center;
+	top: 70%;
+	position: absolute;
+}
+
+.section.panel > .nav > a > span{
+	font-size: 20px;
+	background: #FECB00;
+	border-radius: 150px;
+	padding: 15px;
+	color: #333;
+}
+
+.section.panel > .nav > a > span:hover{
+	font-size: 30px;
+	transition: 0.4s;	
+	box-shadow: 0px 0px 20px #fece06;
+}
